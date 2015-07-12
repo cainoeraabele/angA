@@ -1,0 +1,25 @@
+<div class="breadcrumbs" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="#">Home</a>
+        </li>
+        <li class="active">Admin</li>
+    </ul>
+</div>
+<div class="page-content">
+    <br/>
+    <div ng-repeat="user in users" class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <div class="caption">
+                UID: {{user.uid}}
+                <br/>NAME: {{user.name}}
+                <br/>E-MAIL: {{user.email}}
+                <br/>PHONE: {{user.phone}}
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.page-content -->

@@ -1,3 +1,6 @@
+/**
+ * Created by lucabuonomo1 on 12/07/15.
+ */
 var app = angular.module('myApp', ['ngRoute', 'ngAnimate', 'toaster']);
 
 app.config(['$routeProvider',
@@ -22,6 +25,11 @@ app.config(['$routeProvider',
                 title: 'Dashboard',
                 templateUrl: 'partials/dashboard.html',
                 controller: 'authCtrl'
+            })
+            .when('/admin', {
+                title: 'Admin',
+                templateUrl: 'partials/admin.html',
+                controller: 'adminCtrl'
             })
             .when('/', {
                 title: 'Login',

@@ -1,5 +1,5 @@
-/*
- * Author: Luca Buonomo
+/**
+ * Created by lucabuonomo1 on 12/07/15.
  */
 app.factory("Data", ['$http', 'toaster',
     function ($http, toaster) { // This service connects to our REST API

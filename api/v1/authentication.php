@@ -1,4 +1,5 @@
 <?php
+include 'db.php';
 $app->get('/session', function() {
     $db = new DbHandler();
     $session = $db->getSession();
@@ -84,6 +85,28 @@ $app->post('/signUp', function() use ($app) {
         echoResponse(201, $response);
     }
 });
+
+$app->get('/userlist2', function() {
+    $db = new DbHandler();
+    $userlist= $db->getRecord("SELECT * FROM customers_auth");
+    $response['user'] = $userlist;
+    echoResponse(200, $response);
+});
+
+$app->get('/userlist', function() {
+    $sql = "SELECT * FROM customers_auth";
+    try {
+        $db = getDB();
+        $stmt = $db->query($sql);
+        $users = $stmt->fetchAll(PDO::FETCH_OBJ);
+        $db = null;
+        echo '{"users": ' . json_encode($users) . '}';
+    } catch(PDOException $e) {
+        //error_log($e->getMessage(), 3, '/var/tmp/php.log');
+        echo '{"error":{"text":'. $e->getMessage() .'}}';
+    }
+});
+
 $app->get('/logout', function() {
     $db = new DbHandler();
     $session = $db->destroySession();

@@ -17,6 +17,9 @@ class DbHandler {
         $r = $this->conn->query($query.' LIMIT 1') or die($this->conn->error.__LINE__);
         return $result = $r->fetch_assoc();    
     }
+
+
+
     /**
      * Creating new record
      */
@@ -91,6 +94,14 @@ public function destroySession(){
     }
     return $msg;
 }
+
+    /**
+     * Fetching record
+     */
+    public function getRecord() {
+        $ls = $this->conn->query("SELECT * FROM customers_auth") or die($this->conn->error.__LINE__);
+        return $lista = $ls->fetch_assoc();
+    }
  
 }
 

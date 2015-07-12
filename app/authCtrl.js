@@ -1,5 +1,5 @@
-/*
- * Author: Luca Buonomo
+/**
+ * Created by lucabuonomo1 on 12/07/15.
  */
 app.controller('authCtrl', function ($scope, $rootScope, $routeParams, $location, $http, Data) {
     //initially set those objects to null to avoid undefined error

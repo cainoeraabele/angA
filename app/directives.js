@@ -1,5 +1,5 @@
-/*
- * Author: Luca Buonomo
+/**
+ * Created by lucabuonomo1 on 12/07/15.
  */
 app.directive('focus', function() {
     return function(scope, element) {
