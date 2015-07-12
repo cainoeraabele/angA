@@ -34,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46676096" vertical-offset="0" max-vertical-offset="707">
+            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="450">
               <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbConnect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v1/dbConnect.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="645">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.25" vertical-offset="550" max-vertical-offset="1230">
+              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -141,13 +141,13 @@
         <option value="$PROJECT_DIR$/app/directives.js" />
         <option value="$PROJECT_DIR$/app/data.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/api/v1/dbHandler.php" />
         <option value="$PROJECT_DIR$/api/v1/dbConnect.php" />
         <option value="$PROJECT_DIR$/api/v1/db.php" />
         <option value="$PROJECT_DIR$/api/v1/authentication.php" />
         <option value="$PROJECT_DIR$/app/adminCtrl.js" />
         <option value="$PROJECT_DIR$/partials/admin.html" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -494,14 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.875" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/v1/dbHandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.09804" vertical-offset="1030" max-vertical-offset="1710">
@@ -560,14 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7058825" vertical-offset="0" max-vertical-offset="885">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1035">
@@ -588,8 +572,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46676096" vertical-offset="0" max-vertical-offset="707">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="450">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7058825" vertical-offset="0" max-vertical-offset="885">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25" vertical-offset="550" max-vertical-offset="1230">
+          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
           <folding />
         </state>
       </provider>
